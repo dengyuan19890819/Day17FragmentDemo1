@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.qf.xs.day17fragmentdemo1.MainActivity">
+
+    <!--name属性必须添加
+    必须再添加一个id-->
+    <fragment
+        android:id="@+id/xiaoming1_fragment"
+        android:name="com.qf.xs.day17fragmentdemo1.XiaoMingFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:id="@+id/xiaoming2_fragment"
+        android:name="com.qf.xs.day17fragmentdemo1.XiaoMingFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
